@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open("requierments.txt", "r") as requirements_file:
+with open("requirements.txt", "r") as requirements_file:
     requirements = requirements_file.read().split()
 
 setup(
