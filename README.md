@@ -7,9 +7,21 @@ How do I install it?
 -------------------
 First, make sure you have miniconda or anaconda installed. If not, install it!
 
+Create a conda env
+```
+conda create -n python_indus python=3.7
+conda activate python_indus
+```
+
 Retrieve project from gitlab
 ```
 git clone git@gitlab.octo.com:etoulemonde/formation_indus_ds.git
+```
+
+Create a conda env
+```
+conda create -n python_indus python=3.7
+conda activate python_indus
 ```
 
 Start a jupyter notebook in the folder
