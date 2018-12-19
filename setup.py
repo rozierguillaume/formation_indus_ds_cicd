@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("requirements.txt", "r") as requirements_file:
     requirements = requirements_file.read().split()
@@ -6,7 +6,8 @@ with open("requirements.txt", "r") as requirements_file:
 setup(
     name='formation_indus_ds',
     version='0.1.0',
-    packages=['src'],
+    packages=["indus"],
+    package_dir={"indus": "src"},
     url='',
     license='',
     author='Octo-TOUL',
