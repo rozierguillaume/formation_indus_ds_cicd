@@ -13,15 +13,15 @@ conda create -n python_indus python=3.7
 conda activate python_indus
 ```
 
+Install ipykernel and add kernel to jupyter notebook
+```
+conda install ipykernel
+python -m ipykernel install --user --name python_indus --display-name "Python indus"
+```
+
 Retrieve project from gitlab
 ```
 git clone git@gitlab.octo.com:etoulemonde/formation_indus_ds.git
-```
-
-Create a conda env
-```
-conda create -n python_indus python=3.7
-conda activate python_indus
 ```
 
 Start a jupyter notebook in the folder
