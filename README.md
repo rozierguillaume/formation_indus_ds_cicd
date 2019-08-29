@@ -21,7 +21,7 @@ python -m ipykernel install --user --name python_indus --display-name "Python in
 
 Retrieve project from gitlab
 ```
-git clone git@gitlab.octo.com:etoulemonde/formation_indus_ds.git
+git clone git@gitlab.com:etoulemonde/formation_indus_ds.git
 ```
 
 Start a jupyter notebook in the folder
