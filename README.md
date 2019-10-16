@@ -15,7 +15,7 @@ conda activate python_indus
 
 Retrieve project from gitlab
 ```
-git clone git@gitlab.octo.com:etoulemonde/formation_indus_ds.git
+git clone git@gitlab.com:etoulemonde/formation_indus_ds.git
 ```
 
 Create a conda env
@@ -35,9 +35,15 @@ How to follow it?
 
 It is highly linked to the presentation of the formation.
 
-To navigate between steps change branch. The initial state of the project is "v0"
+To navigate between steps change branch. The initial state of the project is "0_initial_state "
 
-For example, the first branch is "v1":
+For example, the first branch is "1_clean_notebook":
 ```
-git checkout v1
+git checkout 1_clean_notebook 
+```
+
+To see all branches
+
+```
+git branch -a
 ```
