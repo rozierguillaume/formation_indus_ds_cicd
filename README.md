@@ -8,6 +8,7 @@ In this branch you will find :
 - A few documented and tested functions
 - Some `sphynx` documentation 
 - A `setup.py`
+- A predict notebook that reload model and make predictions.
 
 How to restart ?
 ----------------
@@ -15,5 +16,5 @@ How to restart ?
 To start this practical work from the beginning you should :
 ```
 git stash
-git ccheckout master
+git checkout master
 ``` 
