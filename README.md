@@ -29,6 +29,12 @@ If it's not working, make your jupyter-notebook is installed. To install it :
 pip3 install jupyter
 ```
 
+If your `python_indus` environment is not available in `jupyter` interface (when clicking on new). 
+You should :
+- quit jupyter-notebook (`ctrl + c` in terminal).
+- `conda install -n python_indus nb_conda_kernels`
+- Start `jupyter-notebook`
+
 How to follow it?
 ------------------
 
