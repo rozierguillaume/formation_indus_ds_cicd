@@ -18,4 +18,5 @@ When I'm done ?
 This is the end of this practical work. 
 
 Now you know how to go from an 'ugly' notebook to a documented, tested package. 
- 
+
+To see a correction what you should have achieved you can checkout branch `6_package` 
