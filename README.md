@@ -1,49 +1,46 @@
 What is this?
 -------------
+This is the initial branch of the practical work.
 
-This is a practical work to illustrate Data Science industrialization.
+If you explore the project you will find :
 
-How do I install it?
+
+    .
+    └── formation_indus_ds 
+        ├── input
+        |   ├── test.csv
+        |   ├── train.csv
+        ├── notebook
+        |   ├── titanic.ipynb
+        README.md
+        
+This the state of a data science prototype built by one of your colleagues.   
+
+
+What is the goal ?
 -------------------
-First, make sure you have miniconda or anaconda installed. If not, install it!
+The goal of this first step is to clean the notebook following code practices you just discovered :
 
-Create a conda env
-```
-conda create -n python_indus python=3.7
-conda activate python_indus
-```
+- Variables names
+- Conventions
+- Respect cells order
+- Printing
+- Removing useless code
+- Making short instructions
+- Respect immutability 
 
-Retrieve project from gitlab
-```
-git clone git@gitlab.com:etoulemonde/formation_indus_ds.git
-```
 
-Create a conda env
-```
-conda create -n python_indus python=3.7
-conda activate python_indus
-```
+When I'm done ?
+---------------
+When you are done, please wait for the rest of the group.
 
-Start a jupyter notebook in the folder
-```
-cd formation_indus_ds
-jupyter-notebook
-```
+For the next step of the practical work, you can either 
+keep on working on the code as it is, or checkout branch `1_clean_notebook`
 
-How to follow it?
-------------------
-
-It is highly linked to the presentation of the formation.
-
-To navigate between steps change branch. The initial state of the project is "0_initial_state "
-
-For example, the first branch is "1_clean_notebook":
-```
-git checkout 1_clean_notebook 
-```
-
-To see all branches
+To checkout branch `1_clean_notebook` you need to either commit 
+or stash your changes : 
 
 ```
-git branch -a
+git stash
+git checkout 1_clean_notebook
 ```
