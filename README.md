@@ -31,6 +31,9 @@ The goal of this first step is to clean the notebook following code practices yo
 - Create functions 
 
 
+One test to check if you are done is to restart the notebook and run all cells (symbol >>)
+
+
 When I'm done ?
 ---------------
 When you are done, please wait for the rest of the group.
