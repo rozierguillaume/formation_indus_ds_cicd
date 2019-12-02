@@ -24,6 +24,11 @@ cd formation_indus_ds
 jupyter-notebook
 ```
 
+If it's not working, make your jupyter-notebook is installed. To install it :
+```
+pip3 install jupyter
+```
+
 How to follow it?
 ------------------
 
@@ -42,3 +47,15 @@ To start the practical work you should checkout branch `0_initial_state`
 ```
 git checkout 0_initial_state
 ```
+
+For windows users :
+-------------------
+
+You will need a `git bash` terminal and a conda terminal : 
+- All `git` command should be executed in the `git bash` terminal.
+- All `python` and `conda` related command should be executed in the conda terminal. 
+
+For linux users :
+-----------------
+
+Every command can be executed in your terminal.
