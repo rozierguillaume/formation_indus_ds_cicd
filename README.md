@@ -19,4 +19,7 @@ This is the end of this practical work.
 
 Now you know how to go from an 'ugly' notebook to a documented, tested package. 
 
-To see a correction what you should have achieved you can checkout branch `6_package` 
+To see a correction what you should have achieved you can checkout branch `6_package`
+
+Also in branch `6_package` there is an optional task to create a predict notebook using 
+`pickle` to save and load model. 
