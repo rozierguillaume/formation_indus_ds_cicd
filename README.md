@@ -1,49 +1,21 @@
 What is this?
 -------------
+At this step : 
+- Your notebook is clean and running
+- You have a few documented functions
+- Your functions are in a specific `.py` file
+- Your functions are tested
+- Your package have a documentation
 
-This is a practical work to illustrate Data Science industrialization.
-
-How do I install it?
+What is the goal ?
 -------------------
-First, make sure you have miniconda or anaconda installed. If not, install it!
+The goal at this step is to package your code so that it will be easily installed elsewhere.
 
-Create a conda env
-```
-conda create -n python_indus python=3.7
-conda activate python_indus
-```
+Following instructor demonstration you will create a python package.
 
-Retrieve project from gitlab
-```
-git clone git@gitlab.com:etoulemonde/formation_indus_ds.git
-```
+When I'm done ?
+---------------
+This is the end of this practical work. 
 
-Create a conda env
-```
-conda create -n python_indus python=3.7
-conda activate python_indus
-```
-
-Start a jupyter notebook in the folder
-```
-cd formation_indus_ds
-jupyter-notebook
-```
-
-How to follow it?
-------------------
-
-It is highly linked to the presentation of the formation.
-
-To navigate between steps change branch. The initial state of the project is "0_initial_state "
-
-For example, the first branch is "1_clean_notebook":
-```
-git checkout 1_clean_notebook 
-```
-
-To see all branches
-
-```
-git branch -a
-```
+Now you know how to go from an 'ugly' notebook to a documented, tested package. 
+ 
