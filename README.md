@@ -27,7 +27,8 @@ The goal of this first step is to clean the notebook following code practices yo
 - Printing
 - Removing useless code
 - Making short instructions
-- Respect immutability 
+- Respect immutability
+- Create functions 
 
 
 When I'm done ?
