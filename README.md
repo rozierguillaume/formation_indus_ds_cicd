@@ -1,49 +1,29 @@
 What is this?
 -------------
+At this step : 
+- Your notebook is clean and running
+- You have a few documented functions
+- Your functions are in a specific `.py` file
+- Your functions are tested
 
-This is a practical work to illustrate Data Science industrialization.
-
-How do I install it?
+What is the goal ?
 -------------------
-First, make sure you have miniconda or anaconda installed. If not, install it!
+The goal at this step is to generate a sphynx documentation.
 
-Create a conda env
-```
-conda create -n python_indus python=3.7
-conda activate python_indus
-```
+Following instructor demonstration you will create a documentation using 
+`sphynx`. The result will be some `html` pages. 
 
-Retrieve project from gitlab
-```
-git clone git@gitlab.com:etoulemonde/formation_indus_ds.git
-```
 
-Create a conda env
-```
-conda create -n python_indus python=3.7
-conda activate python_indus
-```
+When I'm done ?
+---------------
+When you are done, please wait for the rest of the group.
 
-Start a jupyter notebook in the folder
+For the next step of the practical work, you can either 
+keep on working on the code as it is, or checkout branch `5_add_doc`
+
+To checkout branch `5_add_doc` you need to either commit 
+or stash your changes : 
 ```
-cd formation_indus_ds
-jupyter-notebook
-```
-
-How to follow it?
-------------------
-
-It is highly linked to the presentation of the formation.
-
-To navigate between steps change branch. The initial state of the project is "0_initial_state "
-
-For example, the first branch is "1_clean_notebook":
-```
-git checkout 1_clean_notebook 
-```
-
-To see all branches
-
-```
-git branch -a
+git stash
+git checkout 5_add_doc
 ```
