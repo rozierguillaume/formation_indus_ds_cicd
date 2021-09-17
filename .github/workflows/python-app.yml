@@ -5,9 +5,8 @@ name: Python application
 
 on:
   push:
-    branches: [ 5_add_doc ]
   pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
