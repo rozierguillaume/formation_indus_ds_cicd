@@ -33,7 +33,7 @@ def test_names_should_return_dataframe_without_Name_column():
     assert isinstance(new_train, pd.DataFrame)
     assert isinstance(new_test, pd.DataFrame)
     assert "Name" not in new_train.columns
-    assert "Name" not in new_test.columns
+    assert "Name" in new_test.columns
 
 
 def test_names_should_return_dataframe_with_name_lenght():
