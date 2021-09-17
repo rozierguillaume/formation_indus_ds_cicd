@@ -28,3 +28,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Package
+      run: |
+	python setup.py bdist_wheel
